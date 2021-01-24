@@ -8,6 +8,8 @@
     --banner-footer-background: #2F303A;
     --footer-contact-color: #ffffff99;
     --buuton-portfolio-background: #F5F4FA;
+    --border-line-color: #ECECEC;
+    --border-galerry-color: #eeeeee;
 }
 
 body{
@@ -56,6 +58,7 @@ img {
     display: flex;
     align-items: center;
     min-height: 80px;
+    border: 1px solid var(--border-line-color);
 }
 
 /*================Logo==============*/
@@ -410,6 +413,10 @@ display: flex;
     border: none;
     padding: 6px 23px;
     cursor:pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.03em;
 
 }
 
@@ -441,11 +448,11 @@ margin-top: 94px;
 
 .gallery-list-item {
     width: 370px;
-    background: #FFFFFF;
+    background: var(--third-text-color);
     box-sizing: border-box;
     align-content: flex-start;
     margin-top: 30px;
-    border: 1px solid #eeeeee;
+    border: 1px solid var(--border-galerry-color);
 
 
 }
