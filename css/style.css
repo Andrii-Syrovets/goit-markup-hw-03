@@ -54,11 +54,16 @@ img {
 
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!index.html!!!!!!!!!!!!!!!!! */
 
+.header {
+    border-bottom: 1px solid var(--border-line-color);
+
+}
+
 .header .container {
     display: flex;
     align-items: center;
     min-height: 80px;
-    border: 1px solid var(--border-line-color);
+    
 }
 
 /*================Logo==============*/
