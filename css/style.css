@@ -400,8 +400,9 @@ display: flex;
 
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!portfolio.html!!!!!!!!!!!!!!!!!!!!!!!!!!!1*/
 
-.portfolio {
-    padding-bottom: 94px;
+.portfolio .container {
+    padding: 94px 0;
+
 }
 
 .button {
@@ -431,7 +432,6 @@ display: flex;
 .button-list {
 display: flex;
 justify-content: center;
-margin-top: 94px;
 }
 
 .button:hover,
