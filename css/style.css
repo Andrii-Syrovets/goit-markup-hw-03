@@ -461,6 +461,10 @@ justify-content: center;
     margin-right: 30px;
 }*/
 
+.gallery-text-container {
+    padding: 20px 24px;
+}
+
 
 .gallery-list-title {
     font-weight: 700;
@@ -468,8 +472,7 @@ justify-content: center;
     line-height: 2;
     letter-spacing: 0.06em;
     color: var(--text-color);
-    margin: 20px 24px 4px 24px;
-
+    margin-bottom: 4px;
 }
 
 .gallery-list-text {
@@ -478,7 +481,6 @@ justify-content: center;
     line-height: 1.88;
     letter-spacing: 0.03em;
     color: var(--second-text-color);
-    margin-left: 24px;
 
 
 }
