@@ -44,7 +44,7 @@ img {
 }
  
 .container {
-    width: 1170px;  
+    width: 1200px;  
     padding: 0 15px;
     margin: 0 auto;  
     
@@ -329,10 +329,11 @@ display: flex;
  }
 .footer {
     background-color: var(--banner-footer-background);
+    padding: 60px 0;
+
 }
 
 .footer-logo {
-    padding-top: 30px ;
     margin-bottom: 20px;
 }
 .footer-address {
@@ -347,6 +348,7 @@ display: flex;
     letter-spacing: 0.03em;
     color: var(--third-text-color);
 }
+
 
 .footer-address-link {
     font-weight: 400;
@@ -393,9 +395,11 @@ display: flex;
 
 
 
-
-
 /* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!portfolio.html!!!!!!!!!!!!!!!!!!!!!!!!!!!1*/
+
+.portfolio {
+    padding-bottom: 94px;
+}
 
 .button {
     background-color: var(--buuton-portfolio-background) ;
@@ -420,7 +424,7 @@ display: flex;
 .button-list {
 display: flex;
 justify-content: center;
-margin-bottom: 20px;
+margin-top: 94px;
 }
 
 .button:hover,
@@ -438,12 +442,11 @@ margin-bottom: 20px;
 .gallery-list-item {
     width: 370px;
     background: #FFFFFF;
-    border: 1px solid #160101;
     box-sizing: border-box;
     align-content: flex-start;
     margin-top: 30px;
-    border: none;
-    outline: 1px;
+    border: 1px solid #eeeeee;
+
 
 }
 
